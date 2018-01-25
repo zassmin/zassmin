@@ -8,7 +8,7 @@
 # Site settings
 title: zassmin
 description: > # this means to ignore newlines until "baseurl:"
-  © 2017 All Rights Reserved. By Zassmin. 
+  © 2018 All Rights Reserved. By Zassmin. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: https://zassmin.com # the base hostname & protocol for your site
 enforce_ssl: zassmin.com
