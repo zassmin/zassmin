@@ -2,9 +2,9 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-dark;
-    background-color: $background-color;
+    border-top: 5px solid $brand-color;
+    border-bottom: 1px solid $brand-color;
+    background-color: $brand-color;
     min-height: 56px;
     position: fixed;
     width: 100%;
@@ -20,7 +20,7 @@
 
     &,
     &:visited {
-        color: $grey-color-light;
+        color: $text-color;
     }
 }
 
@@ -47,7 +47,7 @@
         top: 9px;
         right: $spacing-unit / 2;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $brand-color;
         border-radius: 5px;
         text-align: right;
 
@@ -99,7 +99,7 @@
  */
 .site-footer {
     padding: $spacing-unit 0;
-    background-color: $grey-color; 
+    background-color: $brand-color; 
 }
 
 .footer-heading {
@@ -113,7 +113,7 @@
     
     a,
     a:visited {
-        color: $brand-color;
+        color: $background-color;
     }
 }
 
@@ -191,7 +191,7 @@
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: $brand-color;
 }
 
 .post-link {
